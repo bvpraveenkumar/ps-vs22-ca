@@ -9,7 +9,7 @@ namespace Greenfield.Web.Model.Entities
     public class ApplicationUser : IdentityUser<Guid>
     {
         public ApplicationUser()
-        {
+        {;
             Properties = new HashSet<Property>();
             Reservations = new HashSet<Reservation>();
         }
